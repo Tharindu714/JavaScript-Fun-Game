@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cowboy Escape | Island</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.ico" />
+
+
+</head>
+
+<body onload="createboxes();" onkeyup="keyCheck(event);" class="body">
+
+    <div class="background" id="background">
+
+        <p class="score">Score</p>
+        <div class="score1" id="score">0</div>
+        <p class="score2">New Misson : Score 1000 points to Unlock MAPs</p>
+
+        <img src="Run (1).png" id="boy" class="boy" />
+    </div>
+
+    <div class="end" id="end">
+
+        <div>Final score</div>
+        <div id="endscore">0</div>
+        <button onclick="reload();" class="btn">Play Again</button>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
